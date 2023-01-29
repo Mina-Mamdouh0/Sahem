@@ -1,0 +1,58 @@
+name: sahem
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.6 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.5
+  http: ^0.13.5
+  flutter_bloc: ^8.1.1
+  shared_preferences: ^2.0.15
+  flutter_geocoder: ^0.2.2-nullsafety
+  flutter_switch: ^0.3.2
+  fluttertoast: ^8.1.1
+  geocoding: ^2.0.5
+  geolocator: ^9.0.2
+  google_maps_flutter: ^2.2.1
+  image_picker: ^0.8.6
+  permission_handler: ^10.2.0
+  place_picker:
+    git:
+      url: https://github.com/mo-ah-dawood/locationpicker.git
+      ref: nullsafety
+  smooth_page_indicator: ^1.0.0+2
+  flutter_rating_bar: ^4.0.1
+
+dev_dependencies:
+  flutter_launcher_icons: "^0.11.0"
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/logo.png"
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/images/introscreen/
+    - assets/images/
+
+  fonts:
+    - family: arabicJana
+      fonts:
+        - asset: assets/Janna.ttf
+
+
